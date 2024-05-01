@@ -130,7 +130,6 @@
 
     function scrollToPos(pos) {
         $('html, body').animate({scrollTop: pos}, 1500, 'easeInOutExpo');
-        position = pos;
         return false;
     }
 })(jQuery);
